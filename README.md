@@ -10,7 +10,7 @@ Customers can also self-register and request rides from available drivers. Custo
 
 The subscription model adds an extra layer of control and monetization to the system. It enables the platform to restrict or extend access based on the user’s tier and ensures accountability through admin review and approval processes. 
 
-DirectDrive includes all core functionalities such as user registration, login, role-based access control, ride management, ride reporting, and subscription processing. While the subscription feature is functional, division between customer and driver tiers is still being finalized.
+DirectDrive includes all core functionalities such as user registration, login, role-based access control, ride management, ride reporting, and subscription processing.
 
-This project was developed collaboratively by a team of six members and is version-controlled using Git and GitHub. The system uses a modular structure and follows best practices in code organization, error handling, and user interface design. It is designed to be scalable and easily deployable on local development environments such as XAMPP or Laragon.
+This project was developed collaboratively by a team of six members and is version-controlled using GitHub. The system uses a modular structure and follows best practices in code organization, error handling, and user interface design. It is designed to be scalable and easily deployable on local development environments such as XAMPP or Laragon.
 

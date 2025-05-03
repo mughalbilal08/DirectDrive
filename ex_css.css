@@ -1,0 +1,1163 @@
+* {
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    background-color: transparent;
+}
+
+/* Container */
+.s_container {
+    margin-top: 40px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    animation: fadeInContainer 1s ease-in-out;
+    /* Animation for the whole section */
+}
+
+/* Service Wrapper */
+.service-wrapper {
+    padding: 5% 8%;
+    animation: fadeIn 2s ease-in-out;
+    /* Fade-in animation */
+}
+
+/* Service Title */
+.services-title {
+    color: white;
+    font-size: 5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: transparent;
+    letter-spacing: 4px;
+    background-color: rgb(4, 52, 83);
+    background: linear-gradient(8deg, rgba(255, 251, 0) 0%, rgb(230, 138, 0) 41%, rgb(255, 251, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    opacity: 0;
+    animation: fadeInDown -0.5s ease-in-out forwards;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Line Under Services Title */
+.services-title::after {
+    content: "";
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    /* Adjusted to shorten the line */
+    height: 8px;
+    width: 70%;
+    /* Shortened the width of the line */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Moving Dot */
+.services-title span {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    /* Start at the same point as the line */
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #99aa00;
+    animation: moveDot 4s linear infinite alternate;
+    /* Smooth back and forth */
+}
+
+/* Dot Movement Animation */
+@keyframes moveDot {
+    0% {
+        left: 15%;
+        opacity: 1;
+    }
+
+    100% {
+        left: 85%;
+        /* Moves to the end of the shortened line */
+        opacity: 1;
+    }
+}
+
+
+/* Service Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 80px;
+    margin-left: -25px;
+    opacity: 0;
+    animation: fadeInUp 2s ease-in-out forwards;
+    /* Fade-in from the bottom */
+}
+
+.card {
+    height: 330px;
+    width: 370px;
+    background-color: #0f0f0f;
+    padding: 3% 8%;
+    border: 0.2px solid rgba(230, 138, 0);
+    border-radius: 8px;
+    transition: .6s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    animation: slideIn 2s ease-in-out forwards;
+    /* Slide-in animation for cards */
+}
+
+.card:after {
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: -200px;
+    width: 120%;
+    transform: rotate(50deg);
+    background-color: aliceblue;
+    height: 18px;
+    filter: blur(30px);
+    opacity: 0.5s;
+    transition: 1s;
+}
+
+.card:hover:after {
+    width: 225%;
+    top: -100%;
+}
+
+.services-h2 {
+    color: rgb(255, 153, 0);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card p {
+    text-align: left;
+    width: 100%;
+    margin: 12px 0;
+    color: rgb(255, 255, 255);
+}
+
+.card:hover {
+    background-color: transparent;
+    transform: translate(-8px);
+    border-color: #99aa00;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width:1200px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:900px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services-title {
+        font-size: 3.5rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInContainer {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* services section ended */
+
+/* About us  */
+body {
+    background-color: #000;
+}
+
+.a-about {
+    margin-top: 50px;
+}
+
+.about-heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.about-heading h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    position: relative;
+    animation: fadeIn 1.5s ease-in-out;
+    /* Heading animation */
+}
+
+.about-heading span {
+    color: #f39e00;
+}
+
+.about-heading::after {
+    content: "";
+    width: 0%;
+    /* Start width at 0 */
+    height: 5px;
+    display: block;
+    margin-top: -20px;
+    background-color: #f39e00;
+    animation: linePulse 2s ease-in-out infinite alternate;
+    /* Continuous animation */
+}
+
+.a-container {
+    width: 90%;
+    /* Increased width for more space */
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.a-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    animation: fadeInUp 2s ease-in-out;
+    /* Animation for the entire section */
+}
+
+.a-image {
+    flex: 1;
+    overflow: hidden;
+    margin-right: 30px;
+    /* Added margin to the right */
+}
+
+.a-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease-in-out;
+}
+
+.a-image:hover img {
+    transform: scale(1.2);
+}
+
+/* Content Section */
+.about-content {
+    flex: 2;
+    /* Gives the content more space to move right */
+    padding-left: 30px;
+    /* Adds padding to push the content to the right */
+}
+
+.about-content p {
+    color: #ffffff;
+    /* Changed text color to white */
+    font-size: 16px;
+    /* Increased font size for readability */
+    line-height: 1.8;
+    animation: fadeIn 2s ease-in-out;
+    /* Text animation */
+}
+
+
+.about-content .readMore {
+    display: inline-block;
+    padding: 10px 15px;
+    background: linear-gradient(90deg, #f39e00a4, #b37606 70%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-content .readMore:hover {
+    background: linear-gradient(90deg, #da9006, #aa771a 70%);
+    color: #fff;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.about-content .readMore::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.603);
+    transition: left 0.5s ease;
+}
+
+.about-content .readMore:hover::before {
+    left: 100%;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes linePulse {
+    0% {
+        width: 0%;
+        /* Shrink to 0 */
+    }
+
+    50% {
+        width: 20%;
+        /* Expand to 20% */
+    }
+
+    100% {
+        width: 30%;
+        /* Slightly longer than the initial 20% */
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .about-heading {
+        padding: 0px 20px;
+    }
+
+    .about-heading h1 {
+        font-size: 36px;
+    }
+
+    .a-container {
+        padding: 0px;
+    }
+
+    .a-about {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .a-image {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    .about-content .readMore {
+        font-size: 16px;
+    }
+}
+
+/* About us ENd */
+
+/* Contact us */
+
+.Mnb {
+    margin-top: 80px;
+    background: #0b0d0e;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.c-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-container .contact_data {
+    font-style: bold;
+    background: #fff;
+    width: 600px;
+    border-radius: 02px;
+    border-top: 04px solid #f39e00;
+    margin: 0 10px;
+    opacity: 0;
+    transform: translateX(100%);
+    /* Start from the right */
+    animation: slideInLeft 1.5s ease-in-out forwards;
+    /* Animate to left */
+}
+
+.c-container .contact_data form {
+    padding: 0 1rem;
+}
+
+.c-container .contact_data form input,
+textarea {
+    width: 95%;
+    margin: 10px 0 20px 10px;
+    padding: 15px 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: #f9f9f9;
+    transition: border 0.3s ease;
+}
+
+/* Input & Textarea Focus Styles */
+.c-container .contact_data form input:focus,
+textarea:focus {
+    border: 2px solid #f39e00;
+    outline: none;
+
+    box-shadow: 0 0 5px #47b2e4;
+}
+
+/* Contact Us Heading */
+.c-container .contact_data h2 {
+
+    margin: 1.5rem;
+    font-size: 2.5rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    /* Applied Poppins font */
+    position: relative;
+    display: inline-block;
+    color: #0a5679;
+}
+
+.c-container .contact_data h2::after {
+    content: "";
+    position: absolute;
+    bottom: -02px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #f39e00;
+    transform: scaleX(0);
+    /* Start hidden */
+    transform-origin: left;
+    animation: continuousLine 5s linear infinite;
+    /* Added continuous animation */
+}
+
+@keyframes continuousLine {
+    0% {
+        transform: scaleX(0);
+        /* Line starts hidden */
+        transform-origin: left;
+    }
+
+    50% {
+        transform: scaleX(1);
+        /* Line fully visible */
+        transform-origin: left;
+    }
+
+    51% {
+        transform: scaleX(1);
+        /* Start reversing after fully visible */
+        transform-origin: right;
+    }
+
+    100% {
+        transform: scaleX(0);
+        /* Line hidden again */
+        transform-origin: right;
+    }
+}
+
+.c-container .contact_data h2:hover::after {
+    transform: scaleX(1);
+    /* Animate underline */
+    transform-origin: right;
+}
+
+/* Contact Us Underline Animation */
+.c-container .contact_data h2 span {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    height: 3px;
+    width: 10px;
+    background-color: #f39e00;
+    animation: moveUnderlineDot 5s linear infinite;
+}
+
+@keyframes moveUnderlineDot {
+    0% {
+        left: 0%;
+        opacity: 1;
+    }
+
+    95% {
+        left: 100%;
+        /* Moves along the underline */
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        left: 0;
+    }
+}
+
+/* Button Styles */
+.c-container .contact_data button {
+    margin: 20px 10px;
+    border: none;
+    padding: 12px 20px;
+    background: #f39e00;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.c-container .contact_data button:hover {
+    background: #f39e00;
+    color: #fff;
+}
+
+/* Contact Info Box */
+.c-container .contact_data2 {
+    background: #fff;
+    border-radius: 02px;
+    border-top: 04px solid #f39e00;
+    width: 400px;
+    margin: 0 10px;
+    opacity: 0;
+    transform: translateX(-100%);
+    /* Start from the left */
+    animation: slideInRight 1.5s ease-in-out forwards;
+    /* Animate to right */
+}
+
+.c-container .contact_data2 ul {
+    list-style: none;
+}
+
+.c-container .contact_data2 ul li {
+    margin: 1.5rem 1rem;
+}
+
+.c-container .contact_data2 ul li i {
+    font-size: 1.4rem;
+    color: #f39e00;
+}
+
+.c-container .contact_data2 ul li strong {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.c-container .contact_data2 ul li p {
+    font-size: 14px;
+    margin-left: 35px;
+}
+
+/* Map */
+.c-container .contact_data2 .map iframe {
+    width: 90%;
+    height: 280px;
+    margin: 0 1rem;
+    opacity: 0;
+    transform: translateX(-100%);
+    /* Start from the left */
+    animation: slideInRight 1.5s ease-in-out forwards 0.5s;
+    /* Slight delay for the map */
+}
+
+/* Media Queries */
+@media (max-width: 1037px) {
+
+    .c-container .contact_data,
+    .contact_data2 {
+        width: 80%;
+        margin: 10px 0px;
+    }
+
+    .c-container .contact_data h2 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .c-container .contact_data2 {
+        width: 75%;
+        margin: 10px 0px;
+    }
+
+    .c-container .contact_data h2 {
+        width: 50%;
+    }
+}
+
+/* Animations */
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* contact us ended */
+.r-container {
+    margin-top: 40px;
+}
+
+.ride_section {
+    padding: 50px 0;
+    position: relative;
+    /* Required for absolute positioning of animated elements */
+    overflow: hidden;
+    /* Hide overflow */
+}
+
+.ride_main {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ride_main span {
+    color: #f39e00;
+}
+
+.ride_text {
+    font-size: 2.5em;
+    color: #ffffff;
+    /* Highlight color */
+    position: relative;
+    display: inline-block;
+    /* Allow positioning for the line */
+    margin: 1.5rem;
+    /* Optional margin for spacing */
+    opacity: 0;
+    /* Start with invisible */
+    animation: fade-in 0.5s ease-in-out forwards;
+    /* Animation for the title */
+    animation-delay: 0.3s;
+    /* Delay for the title to appear */
+}
+
+.ride_text::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    /* Adjust to position the line below the text */
+    left: 0;
+    height: 3px;
+    /* Height of the line */
+    width: 100%;
+    /* Full width of the text */
+    background-color: #f39e00;
+    /* Color of the line */
+    transform: scaleX(0);
+    /* Start hidden */
+    transform-origin: left;
+    animation: continuousLine 5s linear infinite;
+    /* Continuous animation */
+}
+
+@keyframes continuousLine {
+    0% {
+        transform: scaleX(0);
+        /* Line starts hidden */
+        transform-origin: left;
+    }
+
+    50% {
+        transform: scaleX(1);
+        /* Line fully visible */
+        transform-origin: left;
+    }
+
+    51% {
+        transform: scaleX(1);
+        /* Start reversing after fully visible */
+        transform-origin: right;
+    }
+
+    100% {
+        transform: scaleX(0);
+        /* Line hidden again */
+        transform-origin: right;
+    }
+}
+
+/* Fade-in animation for title */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        /* Start with invisible */
+        transform: translateY(-20px);
+        /* Start slightly above */
+    }
+
+    to {
+        opacity: 1;
+        /* Fully visible */
+        transform: translateY(0);
+        /* Move to original position */
+    }
+}
+
+/* Gallery styles */
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Center the gallery items */
+}
+
+.limoking-gallery-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Space between gallery items */
+    justify-content: center;
+    /* Center the gallery items */
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    /* Hide overflow */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+    /* Light shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Animation on hover */
+    flex: 0 0 calc(33.33% - 20px);
+    /* Set width to 33.33% for three items per row */
+    opacity: 0;
+    /* Start with invisible */
+    animation: fade-in-slide 1s ease-in-out forwards;
+    /* Apply fade-in effect */
+    animation-delay: var(--delay);
+    /* Delay for each image based on index */
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Rounded corners for images */
+    transition: transform 0.5s;
+    /* Animation for images */
+}
+
+/* Add animation for fading and sliding gallery items */
+@keyframes fade-in-slide {
+    from {
+        opacity: 0;
+        /* Start with invisible */
+        transform: translateY(20px);
+        /* Start slightly lower */
+    }
+
+    to {
+        opacity: 1;
+        /* Fully visible */
+        transform: translateY(0);
+        /* Move to original position */
+    }
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    /* Scale effect on hover */
+    box-shadow: 0 8px 40px rgba(255, 255, 255, 0.4);
+    /* Increased shadow on hover */
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+    /* Scale image on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .gallery-item {
+        flex: 0 0 calc(50% - 20px);
+        /* Two items per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        flex: 0 0 calc(100% - 20px);
+        /* Full width on extra small screens */
+    }
+}
+/* gallery end */
+
+/* Booking start */
+.container-center {
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 40vh; /* Set height to 40% of the viewport height */
+    text-align: center; /* Center the text */
+    color: #47b2e4;
+    animation: fadeIn 1,5s ease-in-out; /* Fade in effect */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.b-h1 {
+    color: #ddd;
+    display: inline-block; /* Makes the heading fit the width of the text */
+    position: relative; /* Required for the pseudo-element */
+    animation: slideIn 2s ease-in-out; /* Slide in effect for heading */
+}
+
+/* Keyframes for slide-in animation */
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.b-h1 span {
+    color: #eea303;
+    display: inline-block; /* Makes the heading fit the width of the text */
+    position: relative; /* Required for the pseudo-element */
+}
+
+.b-h1:after {
+    content: ""; /* Create an empty element */
+    display: block; /* Make it a block element */
+    width: 50%; /* Adjust the width of the line as needed */
+    height: 2px; /* Set the height of the line */
+    background: #da7501; /* Set the color of the line */
+    margin: 10px auto 0; /* Center the line and add margin above it */
+    animation: line-animation 3s linear infinite; /* Apply animation */
+}
+
+/* Define the keyframes for the animation */
+@keyframes line-animation {
+    0% {
+        width: 0; /* Start with no width */
+    }
+    50% {
+        width: 100%; /* Expand to full width */
+    }
+    100% {
+        width: 0; /* Shrink back to no width */
+    }
+}
+
+.car1 {
+    margin-top: -30px;
+    margin-bottom: 40px;
+    display: flex; /* Use flexbox for left-right alignment */
+    justify-content: space-between; /* Create space between image and content */
+    align-items: center; /* Vertically center the items */
+    padding: 20px;
+    animation: fadeIn 3s ease-in-out; /* Fade in effect for car1 */
+}
+
+.image1 {
+    flex: 1; /* Take up space for the image */
+    text-align: left; /* Align image to the right */
+}
+
+.image1 img {
+    margin-left: 60px;
+    max-width: 55%; /* Ensure image doesn't overflow */
+    height: auto;
+    cursor: pointer; /* Change cursor to pointer to indicate clickability */
+    animation: zoomIn 0.5s ease-in-out; /* Zoom in effect for images */
+}
+
+/* Keyframes for zoom-in animation */
+@keyframes zoomIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.image1:hover img {
+    transform: scale(1.1); /* Zoom effect when hovered */
+}
+
+.image1 img {
+    transform: scale(1); /* Reset zoom to normal when not hovered */
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.image1cont {
+    flex: 2; /* Take more space for the text */
+    color: #ffffff;
+    text-align: left; /* Align text to the left */
+}
+
+.image1Top {
+    font-size: 3rem; /* Adjust heading size */
+    margin-bottom: 10px;
+    color: #da9006;
+    animation: bounce 1.5s ease-in-out; /* Bounce effect for heading */
+}
+
+/* Keyframes for bounce animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.image1cont p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #faf9f9;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    max-width: 80%; /* Adjust this value based on the layout, 80% as an example */
+    margin: 0 -19px 10px; /* Center the paragraph horizontally */
+    padding-left: 20px; /* Optional: Add padding for extra space from the left */
+    padding-right: 20px; /* Optional: Add padding for extra space from the right */
+}
+
+.book-btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 12px 30px; /* Button padding */
+    background-color: #000000; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 1.2rem; /* Font size */
+    font-weight: 600; /* Bold text */
+    border-radius: 50px; /* Rounded edges for a modern look */
+    text-transform: uppercase; /* Make text uppercase */
+    letter-spacing: 1px; /* Space between letters */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease; /* Smooth hover transition */
+    box-shadow: 0 5px 15px rgba(255, 187, 0, 0.4); /* Soft shadow for depth */
+    position: relative; /* Position for adding effects */
+    overflow: hidden; /* Hide overflow for hover effects */
+    animation: pulse 1.5s infinite; /* Add pulse effect */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.book-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15); /* Soft overlay for effect */
+    transition: all 0.4s ease;
+    opacity: 0;
+    transform: scale(0.5);
+    border-radius: 50px;
+}
+
+.book-btn:hover:before {
+    opacity: 1;
+    transform: scale(1); /* Scale effect on hover */
+}
+
+.book-btn:hover {
+    background-color: #000000; /* Keep button color on hover */
+    box-shadow: 0 8px 20px rgba(255, 196, 0, 0.6); /* Enhanced shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+.book-btn:active {
+    transform: translateY(1px); /* Pressed effect */
+    box-shadow: 0 5px 10px rgba(255, 187, 0, 0.6); /* Reduced shadow on press */
+}
+
+.car2 {
+    margin-bottom: 40px;
+    margin-top: -30px;
+    display: flex; /* Use flexbox for left-right alignment */
+    justify-content: space-between; /* Space between image and content */
+    align-items: center; /* Vertically center the items */
+    padding: 20px;
+    animation: fadeIn 3s ease-in-out; /* Fade in effect for car2 */
+}
+
+.image2cont {
+    flex: 1; /* Take more space for the text */
+    color: #ffffff;
+    padding-right: 20px; /* Add padding on the right for spacing */
+    margin-left: 100px; /* Adjust this to match the image position */
+    text-align: left; /* Align text to the left */
+}
+
+.image2Top {
+    margin-left: -45px; /* Move heading slightly to the right to match image */
+    font-size: 3rem; /* Adjust heading size */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #da9006; /* Heading color */
+    animation: bounce 1.5s ease-in-out; /* Bounce effect for heading */
+}
+
+.image2 {
+    flex: 1; /* Take up space for the image */
+    text-align: right; /* Align image to the right */
+}
+
+.image2 img {
+    max-width: 45%; /* Ensure image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer to indicate clickability */
+    margin-right: 90px; /* Adjust right margin to align with text */
+    animation: zoomIn 0.5s ease-in-out; /* Zoom in effect for images */
+}
+
+.image2:hover img {
+    transform: scale(1.1); /* Zoom effect when hovered */
+}
+
+.image2 img {
+    transform: scale(1); /* Reset zoom to normal when not hovered */
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}

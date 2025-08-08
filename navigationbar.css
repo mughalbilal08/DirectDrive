@@ -1,0 +1,143 @@
+/* Basic body styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+/* Logo styling */
+.logo{
+    margin-top: -50px ;
+    margin-left: -10px !important;
+    transition: all 0.5s ease-in-out;
+    font-size: 1rem !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: aliceblue;
+    position: relative;
+    animation: float 4s ease-in-out infinite; /* Subtle floating effect */
+
+}
+
+.logo h1:hover {
+    color: #F8CA11; /* Fast color change */
+    letter-spacing: 1px; /* Increase letter spacing */
+    transform: scale(1.1); /* Slight zoom */
+    text-shadow: 3px 3px 20px rgba(248, 202, 17, 1), 0 0 30px rgba(248, 202, 17, 0.8); /* Stronger glow */
+}
+
+.logo h1:hover::before {
+    opacity: 1;
+    box-shadow: 0 0 40px rgba(248, 202, 17, 0.8), 0 0 80px rgba(248, 202, 17, 0.6); /* Neon glow on hover */
+}
+
+/* Floating animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Floating effect */
+    }
+}
+
+/* Glowing border animation */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(248, 202, 17, 0.5), 0 0 20px rgba(248, 202, 17, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 40px rgba(248, 202, 17, 0.8), 0 0 80px rgba(248, 202, 17, 0.6);
+    }
+}
+
+/* Navbar styling */
+.navbar {
+    padding: 0px;
+    margin: 0px;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000 !important; /* Ensured the background is black */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Stick it to the top of the page */
+    width: 100%; /* Ensure it spans the full width */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 5px; /* Spacing between menu items */
+}
+
+.navbar-nav .nav-link {
+    margin-left: 43px;
+    font-size: 15px;
+    font-family: sans-serif; /* Use the same font as the logo */
+    font-weight: 550; /* Slightly bold to make it stand out */
+    color: aliceblue !important;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+    letter-spacing: 1px; /* Slight letter spacing */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F8CA11 !important; /* Hover color change */
+}
+
+.navbar-toggler {
+    border-color: #F8CA11; /* Custom color for the toggle button */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28 255, 255, 255, 0.5 %29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+/* Responsive menu items */
+.nav-item a::after {
+    display: block;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #fefefe;
+    position: relative;
+    bottom: 0;
+    margin-top: 4px;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+}
+
+/* Override Bootstrap's default styles to match your design */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.navbar-brand h1 {
+    margin-left: 15px;
+    font-size: 3rem !important;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+        background-color: #000000 ;
+        margin-top: 10px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+}

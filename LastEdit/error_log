@@ -1,0 +1,532 @@
+[21-Jun-2024 09:58:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 09:59:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 09:59:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 09:59:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 09:59:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 09:59:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 09:59:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:00:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:00:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:00:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:00:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:00:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:00:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:01:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:01:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:03:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:04:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:05:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:05:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:08:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:08:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:08:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:08:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:08:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:10:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:10:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:10:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:10:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:10:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:11:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:11:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:12:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:12:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:13:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:13:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:15:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/signup.php(2): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:16:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/tlc1iij74fko/public_html/connect.php:2
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(3): include()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/connect.php on line 2
+[21-Jun-2024 10:21:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/login.php:9
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(9): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/login.php on line 9
+[21-Jun-2024 10:22:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:23:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:24:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:24:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:24:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:24:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:24:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:24:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:24:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:30:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:30:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/dashboard.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/dashboard.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/dashboard.php on line 6
+[21-Jun-2024 10:32:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/add-driver.php:8
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/add-driver.php(8): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/add-driver.php on line 8
+[21-Jun-2024 10:32:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/add-driver.php:8
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/add-driver.php(8): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/add-driver.php on line 8
+[21-Jun-2024 10:37:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/view_drivers.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/view_drivers.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/view_drivers.php on line 7
+[21-Jun-2024 10:37:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/view_drivers.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/view_drivers.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/view_drivers.php on line 7
+[21-Jun-2024 10:39:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/ad-vehicle.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/ad-vehicle.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 7
+[21-Jun-2024 10:40:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/ad-vehicle.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/ad-vehicle.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 7
+[21-Jun-2024 10:43:22 UTC] PHP Warning:  Undefined variable $image_data in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 54
+[21-Jun-2024 10:43:22 UTC] PHP Warning:  file_put_contents(vehicleimages/): Failed to open stream: Is a directory in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 54
+[21-Jun-2024 10:43:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/view_vehicles.php:6
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/view_vehicles.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/view_vehicles.php on line 6
+[21-Jun-2024 10:43:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/add-staff.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/add-staff.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/add-staff.php on line 7
+[21-Jun-2024 10:44:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/add-expenses.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/add-expenses.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/add-expenses.php on line 7
+[21-Jun-2024 10:49:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND driver_details where username  = 'TestDriverhTGqh' and password = '123'' at line 1 in /home/tlc1iij74fko/public_html/login.php:9
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(9): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/login.php on line 9
+[21-Jun-2024 10:49:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND driver_details where username  = 'TestDriverhTGqh' and password = '123'' at line 1 in /home/tlc1iij74fko/public_html/login.php:9
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(9): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/login.php on line 9
+[21-Jun-2024 10:49:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'username' in where clause is ambiguous in /home/tlc1iij74fko/public_html/login.php:9
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/login.php(9): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/login.php on line 9
+[21-Jun-2024 10:52:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/view_users.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/view_users.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/view_users.php on line 7
+[21-Jun-2024 10:52:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/view_users.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/view_users.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/view_users.php on line 7
+[21-Jun-2024 10:54:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/view_staff.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/view_staff.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/view_staff.php on line 7
+[21-Jun-2024 10:55:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/view_staff.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/view_staff.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/view_staff.php on line 7
+[21-Jun-2024 10:57:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/reports.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/reports.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/reports.php on line 7
+[21-Jun-2024 10:58:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/update_ride.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/update_ride.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/update_ride.php on line 7
+[21-Jun-2024 11:03:23 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/dashboard.php on line 99
+[21-Jun-2024 11:03:52 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/reports.php on line 4
+[21-Jun-2024 11:03:52 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/reports.php on line 107
+[21-Jun-2024 11:03:52 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/reports.php on line 215
+[21-Jun-2024 11:03:52 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/reports.php on line 223
+[21-Jun-2024 11:03:52 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/reports.php on line 230
+[21-Jun-2024 11:03:52 UTC] PHP Warning:  Undefined variable $result3 in /home/tlc1iij74fko/public_html/reports.php on line 273
+[21-Jun-2024 11:03:52 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/tlc1iij74fko/public_html/reports.php:273
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/reports.php(273): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/reports.php on line 273
+[21-Jun-2024 11:33:38 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/driverdashboard.php on line 180
+[21-Jun-2024 11:38:02 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/add-driver.php on line 4
+[21-Jun-2024 11:38:08 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/add-driver.php on line 275
+[21-Jun-2024 11:38:08 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/add-driver.php on line 388
+[21-Jun-2024 11:38:08 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/add-driver.php on line 396
+[21-Jun-2024 11:38:08 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/add-driver.php on line 403
+[21-Jun-2024 11:40:33 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/driverdashboard.php on line 180
+[21-Jun-2024 11:40:59 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/dashboard.php on line 99
+[21-Jun-2024 12:21:54 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/dashboard.php on line 99
+[21-Jun-2024 12:33:48 UTC] PHP Warning:  Undefined variable $image_data in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 54
+[21-Jun-2024 12:33:48 UTC] PHP Warning:  file_put_contents(vehicleimages/): Failed to open stream: Is a directory in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 54
+[21-Jun-2024 15:20:04 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/dashboard.php on line 4
+[21-Jun-2024 15:20:04 UTC] PHP Warning:  Undefined variable $completeArray in /home/tlc1iij74fko/public_html/dashboard.php on line 82
+[21-Jun-2024 15:20:04 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/dashboard.php on line 99
+[21-Jun-2024 15:20:04 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/dashboard.php on line 213
+[21-Jun-2024 15:20:04 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/dashboard.php on line 221
+[21-Jun-2024 15:20:04 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/dashboard.php on line 228
+[21-Jun-2024 16:29:46 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/dashboard.php on line 99
+[21-Jun-2024 16:42:10 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/dashboard.php on line 99
+[22-Jun-2024 16:56:08 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/add-staff.php on line 4
+[22-Jun-2024 16:56:08 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/add-staff.php on line 184
+[22-Jun-2024 16:56:08 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/add-staff.php on line 297
+[22-Jun-2024 16:56:08 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/add-staff.php on line 305
+[22-Jun-2024 16:56:08 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/add-staff.php on line 312
+[22-Jun-2024 16:56:09 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/driverdashboard.php on line 5
+[22-Jun-2024 16:56:09 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/driverdashboard.php on line 180
+[22-Jun-2024 16:56:09 UTC] PHP Warning:  Undefined variable $numOfCompletedRides in /home/tlc1iij74fko/public_html/driverdashboard.php on line 247
+[22-Jun-2024 16:56:09 UTC] PHP Warning:  Undefined variable $numOfIncompleteRides in /home/tlc1iij74fko/public_html/driverdashboard.php on line 253
+[22-Jun-2024 16:56:09 UTC] PHP Warning:  Undefined variable $totalExpense in /home/tlc1iij74fko/public_html/driverdashboard.php on line 259
+[22-Jun-2024 16:56:09 UTC] PHP Warning:  Undefined variable $totalIncome in /home/tlc1iij74fko/public_html/driverdashboard.php on line 265
+[22-Jun-2024 16:56:09 UTC] PHP Warning:  Undefined variable $officeCash in /home/tlc1iij74fko/public_html/driverdashboard.php on line 272
+[22-Jun-2024 16:56:09 UTC] PHP Warning:  Undefined variable $result4 in /home/tlc1iij74fko/public_html/driverdashboard.php on line 314
+[22-Jun-2024 16:56:09 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/tlc1iij74fko/public_html/driverdashboard.php:314
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/driverdashboard.php(314): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/driverdashboard.php on line 314
+[23-Jun-2024 13:57:57 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/dashboard.php on line 4
+[23-Jun-2024 13:57:57 UTC] PHP Warning:  Undefined variable $completeArray in /home/tlc1iij74fko/public_html/dashboard.php on line 82
+[23-Jun-2024 13:57:57 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/dashboard.php on line 99
+[23-Jun-2024 13:57:57 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/dashboard.php on line 213
+[23-Jun-2024 13:57:57 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/dashboard.php on line 221
+[23-Jun-2024 13:57:57 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/dashboard.php on line 228
+[23-Jun-2024 13:57:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/add-expenses.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/add-expenses.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/add-expenses.php on line 7
+[23-Jun-2024 13:58:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/add-expenses.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/add-expenses.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/add-expenses.php on line 7
+[23-Jun-2024 13:58:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/add-expenses.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/add-expenses.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/add-expenses.php on line 7
+[23-Jun-2024 13:58:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'taxibooking.login_details' doesn't exist in /home/tlc1iij74fko/public_html/add-expenses.php:7
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/add-expenses.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/add-expenses.php on line 7
+[23-Jun-2024 14:00:16 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/dashboard.php on line 99
+[23-Jun-2024 14:05:09 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/driverdashboard.php on line 180
+[24-Jun-2024 16:42:19 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/view_drivers.php on line 112
+[24-Jun-2024 19:45:56 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/view_users.php on line 102
+[24-Jun-2024 20:18:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/update_ride.php on line 57
+[25-Jun-2024 09:11:42 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/view_drivers.php on line 112
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/update_ride.php on line 348
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/update_ride.php on line 348
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/update_ride.php on line 351
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/update_ride.php on line 351
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/update_ride.php on line 355
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/update_ride.php on line 355
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/update_ride.php on line 359
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/update_ride.php on line 359
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/update_ride.php on line 364
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/update_ride.php on line 364
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/update_ride.php on line 368
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/update_ride.php on line 368
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/update_ride.php on line 372
+[25-Jun-2024 11:09:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/update_ride.php on line 372
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 207
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 207
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 210
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 210
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 214
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 214
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 218
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 218
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 223
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 223
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 227
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 227
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 231
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 231
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 235
+[25-Jun-2024 11:11:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 235
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 207
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 207
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 210
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 210
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 214
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 214
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 218
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 218
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 223
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 223
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 227
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 227
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 231
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 231
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Undefined variable $row3 in /home/tlc1iij74fko/public_html/completeRide.php on line 235
+[25-Jun-2024 11:11:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/tlc1iij74fko/public_html/completeRide.php on line 235
+[25-Jun-2024 12:09:05 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/add_ride_bydriver.php on line 5
+[25-Jun-2024 12:09:05 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/add_ride_bydriver.php on line 297
+[25-Jun-2024 12:09:05 UTC] PHP Warning:  Undefined variable $numOfCompletedRides in /home/tlc1iij74fko/public_html/add_ride_bydriver.php on line 364
+[25-Jun-2024 12:09:05 UTC] PHP Warning:  Undefined variable $numOfIncompleteRides in /home/tlc1iij74fko/public_html/add_ride_bydriver.php on line 370
+[25-Jun-2024 12:09:05 UTC] PHP Warning:  Undefined variable $totalExpense in /home/tlc1iij74fko/public_html/add_ride_bydriver.php on line 376
+[25-Jun-2024 12:09:05 UTC] PHP Warning:  Undefined variable $totalIncome in /home/tlc1iij74fko/public_html/add_ride_bydriver.php on line 382
+[26-Jun-2024 11:35:08 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/driverdashboard.php on line 5
+[26-Jun-2024 11:35:08 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/driverdashboard.php on line 180
+[26-Jun-2024 11:35:08 UTC] PHP Warning:  Undefined variable $numOfCompletedRides in /home/tlc1iij74fko/public_html/driverdashboard.php on line 247
+[26-Jun-2024 11:35:08 UTC] PHP Warning:  Undefined variable $numOfIncompleteRides in /home/tlc1iij74fko/public_html/driverdashboard.php on line 253
+[26-Jun-2024 11:35:08 UTC] PHP Warning:  Undefined variable $totalExpense in /home/tlc1iij74fko/public_html/driverdashboard.php on line 259
+[26-Jun-2024 11:35:08 UTC] PHP Warning:  Undefined variable $totalIncome in /home/tlc1iij74fko/public_html/driverdashboard.php on line 265
+[26-Jun-2024 11:35:08 UTC] PHP Warning:  Undefined variable $officeCash in /home/tlc1iij74fko/public_html/driverdashboard.php on line 272
+[26-Jun-2024 11:35:08 UTC] PHP Warning:  Undefined variable $result4 in /home/tlc1iij74fko/public_html/driverdashboard.php on line 314
+[26-Jun-2024 11:35:08 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/tlc1iij74fko/public_html/driverdashboard.php:314
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/driverdashboard.php(314): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/driverdashboard.php on line 314
+[26-Jun-2024 11:35:14 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/add-expenses.php on line 4
+[26-Jun-2024 11:35:14 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/add-expenses.php on line 157
+[26-Jun-2024 11:35:14 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/add-expenses.php on line 270
+[26-Jun-2024 11:35:14 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/add-expenses.php on line 278
+[26-Jun-2024 11:35:14 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/add-expenses.php on line 285
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/view_users.php on line 4
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/view_users.php on line 102
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/view_users.php on line 216
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/view_users.php on line 224
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/view_users.php on line 231
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/driverdashboard.php on line 5
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/driverdashboard.php on line 180
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined variable $numOfCompletedRides in /home/tlc1iij74fko/public_html/driverdashboard.php on line 247
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined variable $numOfIncompleteRides in /home/tlc1iij74fko/public_html/driverdashboard.php on line 253
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined variable $totalExpense in /home/tlc1iij74fko/public_html/driverdashboard.php on line 259
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined variable $totalIncome in /home/tlc1iij74fko/public_html/driverdashboard.php on line 265
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined variable $officeCash in /home/tlc1iij74fko/public_html/driverdashboard.php on line 272
+[03-Jul-2024 10:12:09 UTC] PHP Warning:  Undefined variable $result4 in /home/tlc1iij74fko/public_html/driverdashboard.php on line 314
+[03-Jul-2024 10:12:09 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/tlc1iij74fko/public_html/driverdashboard.php:314
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/driverdashboard.php(314): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/driverdashboard.php on line 314
+[04-Jul-2024 11:23:15 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 4
+[04-Jul-2024 11:23:15 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 174
+[04-Jul-2024 11:23:15 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 288
+[04-Jul-2024 11:23:15 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 296
+[04-Jul-2024 11:23:15 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/ad-vehicle.php on line 303
+[04-Jul-2024 11:23:21 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/add-driver.php on line 4
+[04-Jul-2024 11:23:21 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/add-driver.php on line 275
+[04-Jul-2024 11:23:21 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/add-driver.php on line 388
+[04-Jul-2024 11:23:21 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/add-driver.php on line 396
+[04-Jul-2024 11:23:21 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/add-driver.php on line 403
+[04-Jul-2024 11:23:25 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/add-staff.php on line 4
+[04-Jul-2024 11:23:25 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/add-staff.php on line 184
+[04-Jul-2024 11:23:25 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/add-staff.php on line 297
+[04-Jul-2024 11:23:25 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/add-staff.php on line 305
+[04-Jul-2024 11:23:25 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/add-staff.php on line 312
+[04-Jul-2024 11:23:44 UTC] PHP Warning:  Undefined array key "loggedin" in /home/tlc1iij74fko/public_html/reports.php on line 4
+[04-Jul-2024 11:23:44 UTC] PHP Warning:  Undefined array key "name" in /home/tlc1iij74fko/public_html/reports.php on line 107
+[04-Jul-2024 11:23:44 UTC] PHP Warning:  Undefined variable $numberofDrivers in /home/tlc1iij74fko/public_html/reports.php on line 215
+[04-Jul-2024 11:23:44 UTC] PHP Warning:  Undefined variable $numberofCustomers in /home/tlc1iij74fko/public_html/reports.php on line 223
+[04-Jul-2024 11:23:44 UTC] PHP Warning:  Undefined variable $totalExpenses in /home/tlc1iij74fko/public_html/reports.php on line 230
+[04-Jul-2024 11:23:44 UTC] PHP Warning:  Undefined variable $result3 in /home/tlc1iij74fko/public_html/reports.php on line 273
+[04-Jul-2024 11:23:44 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/tlc1iij74fko/public_html/reports.php:273
+Stack trace:
+#0 /home/tlc1iij74fko/public_html/reports.php(273): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/tlc1iij74fko/public_html/reports.php on line 273

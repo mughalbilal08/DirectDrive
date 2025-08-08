@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2F2F2F;
+}
+
+/* Logo styling */
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo h1 {
+    margin: 0;
+    height: inherit;
+    font-size: 38px; /* Larger for more impact */
+    position: relative;
+    padding-left: 30px;
+    transition: color 0.1s ease-in-out, letter-spacing 0.3s ease, transform 0.4s ease; /* Smooth transitions */
+    letter-spacing: 3px; /* Initial letter spacing */
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5), 0 0 15px rgba(248, 202, 17, 0.7); /* Bold shadow and glow */
+    position: relative;
+    z-index: 2;
+}
+
+/* Neon border effect */
+.logo h1::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    bottom: -10px;
+    top: -10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, transparent, rgba(248, 202, 17, 0.8), transparent);
+    box-shadow: 0 0 20px rgba(248, 202, 17, 0.6), 0 0 50px rgba(248, 202, 17, 0.4);
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+    z-index: -1;
+}
+
+/* Slow expanding underline */
+.logo h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    transition: width 1s ease-in-out;
+}
+
+/* Hover effects */
+.logo h1:hover {
+    color: #F8CA11; /* Fast color change */
+    letter-spacing: 5px; /* Increase letter spacing */
+    transform: scale(1.1); /* Slight zoom */
+    text-shadow: 3px 3px 20px rgba(248, 202, 17, 1), 0 0 30px rgba(248, 202, 17, 0.8); /* Stronger glow */
+}
+
+.logo h1:hover::before {
+    opacity: 1;
+    box-shadow: 0 0 40px rgba(248, 202, 17, 0.8), 0 0 80px rgba(248, 202, 17, 0.6); /* Neon glow on hover */
+}
+
+.logo h1:hover::after {
+    width: 100%; /* Full underline expansion */
+}
+
+.logo {
+    margin-left: 50px;
+    transition: all 0.5s ease-in-out;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: aliceblue;
+    position: relative;
+    z-index: 2;
+    animation: float 5s ease-in-out infinite; /* Subtle floating effect */
+}
+
+/* Floating animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Floating effect */
+    }
+}
+
+/* Glowing border animation */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(248, 202, 17, 0.5), 0 0 20px rgba(248, 202, 17, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 40px rgba(248, 202, 17, 0.8), 0 0 80px rgba(248, 202, 17, 0.6);
+    }
+}
+
+/*Navbar start  */
+.nav_container {
+    padding: 0px;
+    margin: 0px;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Stick it to the top of the page */
+    width: 100%; /* Ensure it spans the full width */
+}
+
+
+
+.menu ul {
+    margin-right: 70px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 0 15px; /* Reduced spacing between menu items */
+    font-size: 15px;
+    font-family:  sans-serif; /* Use the same font as the logo */
+    font-weight: 550; /* Slightly bold to make it stand out */
+    position: relative;
+    letter-spacing: 1px; /* Add slight letter spacing for readability */
+}
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out; /* Slightly faster transition for smoother hover effect */
+}
+
+.menu ul li a:hover {
+    color: #F8CA11; /* Hover color change */
+}
+
+.menu li a::after {
+    display: block;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #fefefe;
+    position: relative;
+    bottom: 0;
+    margin-top: 4px;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+}
+/* Navbar Ended */
+
+/* Photo sliding  */
+
+.banner_section {
+    position: relative;
+    background: #161616; /* Background for the section */
+    overflow: hidden; /* Ensures content stays within bounds */
+}
+
+.carousel-inner img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+/* Indicators */
+.carousel-indicators {
+    background: transparent;
+}
+
+.carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.7); /* Light gray dots */
+    border: none; /* Remove border */
+    width: 12px; /* Set width */
+    height: 12px; /* Set height */
+    border-radius: 50%; /* Make dots circular */
+    margin: 0 5px; /* Spacing between dots */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.carousel-indicators .active {
+    background-color: #F8CA11; /* Highlight active dot with a vibrant color */
+}
+/* Photo sliding end */
+

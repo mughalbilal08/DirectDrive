@@ -1,0 +1,59 @@
+.nav_container {
+    height: 10vh;
+    width: 100%;
+    display: flex; /* Aik line main atay hain */
+    justify-content: space-between;  /* Corners pay jatay hain */
+    align-items: center;
+    background-color: #059da8;
+}
+
+.logo {
+    color: aliceblue;
+    margin-left: 100px;
+    transition: all 0.5s ease-in-out;
+    font-size: 1.3rem;
+}
+
+.logo:hover {
+    color: black;
+}
+
+.menu ul {
+    display: flex;
+    margin-right: 70px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+}
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: black;
+}
+
+.menu li a::after {
+    display: block;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #fefefe;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+    /* increase width to 100% on hover */
+}

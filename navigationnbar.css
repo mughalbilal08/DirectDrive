@@ -1,0 +1,103 @@
+/* Basic body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2F2F2F;
+}
+
+/* Navbar Start */
+.nav_container {
+    padding: 0px;
+    margin: 0px;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Stick it to the top of the page */
+    width: 100%; /* Ensure it spans the full width */
+}
+
+.menu ul {
+    margin-top: 10px;
+    display: flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 0 0px; /* Reduced spacing between menu items */
+    font-size: 15px;
+    font-family: sans-serif; /* Use the same font as the logo */
+    font-weight: 550; /* Slightly bold to make it stand out */
+    position: relative;
+    letter-spacing: 1px; /* Add slight letter spacing for readability */
+}
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out; /* Slightly faster transition for smoother hover effect */
+}
+
+.menu ul li a:hover {
+    color: rgb(247, 124, 68); /* Hover color change */
+}
+
+.menu li a::after {
+    display: block;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #fefefe;
+    position: relative;
+    bottom: 0;
+    margin-top: 4px;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+}
+/* Navbar End */
+
+/* Photo Sliding Section */
+.banner_section {
+    position: relative;
+    background: #161616; /* Background for the section */
+    overflow: hidden; /* Ensures content stays within bounds */
+}
+
+.carousel-inner img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+/* Indicators */
+.carousel-indicators {
+    background: transparent;
+}
+
+.carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.7); /* Light gray dots */
+    border: none; /* Remove border */
+    width: 12px; /* Set width */
+    height: 12px; /* Set height */
+    border-radius: 50%; /* Make dots circular */
+    margin: 0 5px; /* Spacing between dots */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.carousel-indicators .active {
+    background-color: rgb(240, 99, 6); /* Highlight active dot with a vibrant color */
+}
+/* Photo Sliding End */
